@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
